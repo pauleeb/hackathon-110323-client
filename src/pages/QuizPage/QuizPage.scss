@@ -5,10 +5,16 @@
     background-color: rgb(5, 28, 43);
     // background-size: cover;
     width: 100vw;
-    height: 100vh;
+    height: 250vh;
     // position: relative;
 
 
+}
+
+.question {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
 }
 
 .question-container {
@@ -28,10 +34,21 @@
     &__left {
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
+        height: 10vh;
     }
 
     &__right {
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
+        height: 10vh;
     }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 250vh;
 }

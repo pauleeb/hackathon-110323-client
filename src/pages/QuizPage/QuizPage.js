@@ -5,7 +5,7 @@ function QuizPage() {
     return (
         <>
             <main className='main-page'>
-                <form>
+                <form className="form">
                     <div className='question-container'>
                         <h2 className='question'>Question
                         </h2>
