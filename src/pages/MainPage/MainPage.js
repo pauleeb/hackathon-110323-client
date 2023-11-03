@@ -1,6 +1,9 @@
 import './MainPage.scss';
 
+
 function MainPage() {
+
+
     return (
         <>
             <form>
