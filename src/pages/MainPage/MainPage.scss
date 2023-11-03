@@ -1,0 +1,87 @@
+.main-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(5, 28, 43);
+    // background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    // position: relative;
+
+
+}
+
+
+.box {
+    // font-size: 80px;
+    line-height: 200px;
+
+    position: relative;
+
+    float: left;
+
+    width: 80vw;
+    height: 200px;
+    margin-top: 0;
+    margin-right: 5%;
+    margin-bottom: 40px;
+    margin-left: 5%;
+
+    animation-name: flicker;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    text-align: center;
+
+    color: #ffffff;
+    border-radius: 4px;
+
+
+}
+
+// &.flash {
+//     background-color: #fff;
+// }
+
+
+.pink {
+    animation-duration: 2.5s;
+
+    border: 2px solid #fff;
+    border-color: hotpink;
+    box-shadow: hotpink 0 0 30px, inset hotpink 0 0 30px;
+}
+
+.blue {
+    animation-duration: 2.5s;
+
+    border: 2px solid #fff;
+    border-color: teal;
+    box-shadow: teal 0 0 30px, inset teal 0 0 30px;
+
+}
+
+.theme {
+    line-height: 200px;
+
+    position: relative;
+
+    float: left;
+
+    width: 60vw;
+    height: 200px;
+    margin-top: 0;
+    margin-right: 5%;
+    margin-bottom: 40px;
+    margin-left: 5%;
+
+    animation-name: flicker;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    text-align: center;
+
+    color: #ffffff;
+    border-radius: 4px;
+
+
+
+}

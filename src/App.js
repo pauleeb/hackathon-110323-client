@@ -1,5 +1,5 @@
 import MainPage from './pages/MainPage/MainPage';
-import './App.css';
+import './App.scss';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import QuizPage from './pages/QuizPage/QuizPage';
 
@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<MainPage />} />
-          <Route path="/theme/:themeId" element={<QuizPage />} />
+          <Route path="/theme" element={<QuizPage />} />
         </Routes>
       </BrowserRouter >
 
